@@ -21,7 +21,7 @@ var blockWidth = 50;
 var blockInterval = null; 
 var blockMoveSpeed = 1.5;
 const blockArray = [];
-var blockGap = 250;
+var blockGap = 150;
 var minBlockSize = 30;
 
 var XOffset = 15;
