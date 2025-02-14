@@ -206,8 +206,8 @@ function updateCanvas() {
    ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 
    player.makeFall();
-   player.draw();
    player.jump();
+   player.draw();
    player.checkRoof();
 
    for(let i = 0; i < blockArray.length; i++){
